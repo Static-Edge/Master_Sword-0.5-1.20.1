@@ -26,11 +26,11 @@ public class SwordBeamEntityRenderer extends EntityRenderer<SwordBeamEntity> {
     }
 
     @Override
-    public void render(@NotNull SwordBeamEntity dalekBeam, float yaw, float tickDelta, @NotNull MatrixStack matrices, @NotNull VertexConsumerProvider vertexConsumers, int light) {
-        super.render(dalekBeam, yaw, tickDelta, matrices, vertexConsumers, light);
-        matrices.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(dalekBeam.getYaw()));
-        matrices.multiply(RotationAxis.POSITIVE_X.rotationDegrees(-dalekBeam.getPitch()));
-        VertexConsumer vertexConsumer = vertexConsumers.getBuffer(this.entityModel.getLayer(getTexture(dalekBeam)));
+    public void render(@NotNull SwordBeamEntity swordBeam, float yaw, float tickDelta, @NotNull MatrixStack matrices, @NotNull VertexConsumerProvider vertexConsumers, int light) {
+        super.render(swordBeam, yaw, tickDelta, matrices, vertexConsumers, light);
+        matrices.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(swordBeam.getYaw()));
+        matrices.multiply(RotationAxis.POSITIVE_X.rotationDegrees(swordBeam.getPitch()));
+        VertexConsumer vertexConsumer = vertexConsumers.getBuffer(this.entityModel.getLayer(getTexture(swordBeam)));
         this.entityModel.render(matrices, vertexConsumer, light, OverlayTexture.DEFAULT_UV, 1.0f, 1.0f, 1.5f, 1.0f);
     }
 
