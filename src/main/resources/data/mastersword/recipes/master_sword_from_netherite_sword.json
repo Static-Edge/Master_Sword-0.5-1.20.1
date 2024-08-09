@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "master-sword:the_master_sword"
+  },
+  "template": {
+    "item": "master-sword:divine_upgrade_smithing_template"
+  }
+}

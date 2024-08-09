@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "master-sword:scimitar_of_the_seven"
+    },
+    "title": "gerudo_fury",
+    "description": "Craft the Scimitar Of the Seven and Daybreaker",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mastersword:divine_intervention",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "master-sword:scimitar_of_the_seven",
+              "master-sword:daybreaker"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

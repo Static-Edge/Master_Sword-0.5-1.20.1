@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "base": {
+    "item": "minecraft:trident"
+  },
+  "result": {
+    "item": "master-sword:lightscale_trident"
+  },
+  "template": {
+    "item": "master-sword:divine_upgrade_smithing_template"
+  }
+}

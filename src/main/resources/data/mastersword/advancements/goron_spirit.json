@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "master-sword:boulder_breaker"
+    },
+    "title": "Goron Spirit",
+    "description": "Craft the Boulder Breaker",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mastersword:divine_intervention",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "master-sword:boulder_breaker"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

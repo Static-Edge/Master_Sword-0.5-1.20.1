@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "master-sword:lightscale_trident"
+    },
+    "title": "Zora Mettle",
+    "description": "Craft the Lightscale Trident",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mastersword:divine_intervention",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "master-sword:lightscale_trident"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

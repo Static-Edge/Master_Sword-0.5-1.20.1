@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "net.staticedge.mastersword.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin",
+		"MobEntityMixin",
+		"PlayerEntityMixin",
+		"TridentRiptideFeatureRendererMixin"
+	],
+	"client":[],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

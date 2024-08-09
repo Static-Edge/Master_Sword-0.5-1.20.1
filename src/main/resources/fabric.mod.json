@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "master-sword",
+	"version": "${version}",
+	"name": "Master Sword",
+	"description": "This is my first mod! Hope it works!",
+	"authors": [
+		"Static Edge"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/master-sword/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.staticedge.mastersword.MasterSword"
+		],
+		"client": [
+			"net.staticedge.mastersword.MasterSwordClient"
+		],
+		"fabric-datagen": [
+			"net.staticedge.mastersword.MasterSwordDataGenerator"
+		]
+	},
+	"mixins": [
+		"master-sword.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "master-sword:great_eagle_bow"
+    },
+    "title": "Rito Discipline",
+    "description": "Craft the Great Eagle Bow",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mastersword:divine_intervention",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "master-sword:great_eagle_bow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

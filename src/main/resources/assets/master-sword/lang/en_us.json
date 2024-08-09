@@ -1,0 +1,37 @@
+{
+  "item.master-sword.the_master_sword": "The Master Sword",
+  "item.master-sword.divine_upgrade_smithing_template": "Divine Upgrade",
+  "item.master-sword.hylian_shield": "Hylian Shield",
+  "item.master-sword.lightscale_trident": "Lightscale Trident",
+  "item.master-sword.great_eagle_bow": "Great Eagle Bow",
+  "item.master-sword.boulder_breaker": "Boulder Breaker",
+  "item.minecraft.divine_template": "Smithing Template",
+
+  "itemgroup.mastersword": "Master Sword",
+
+  "upgrade.minecraft.divine_upgrade": "Divine Upgrade",
+  "item.minecraft.divine_template.applies_to": "Applies To:",
+  "item.minecraft.divine_template.divine_upgrade.applies_to": "Max Tier Weapons/Shield",
+  "item.minecraft.divine_template.ingredients": "Ingredients:",
+  "item.minecraft.divine_template.divine_upgrade.ingredients": "Nether Star",
+
+  "enchantment.mastersword.lightning_striker": "Lightning Striker",
+  "enchantment.mastersword.aquatic_dash": "Aquatic Dash",
+
+  "tooltip.master-sword.master_sword_tooltip": "The Legendary Sword that Seals the Darkness",
+  "tooltip.master-sword.master_sword_tooltip_2": "Burns and deals higher damage to undead mobs",
+
+  "tooltip.master-sword.lightscale_trident_tooltip": "A Trident used by a Zora Champion in a distant land",
+  "tooltip.master-sword.lightscale_trident_tooltip_2": "Can surround the user in a spiral of water to allow them to dash",
+  "tooltip.master-sword.lightscale_trident_tooltip_3": "Continued hits grant the user improved regeneration",
+
+  "tooltip.master-sword.hylian_shield_tooltip": "A shield passed down through a royal family from a distant land",
+  "tooltip.master-sword.hylian_shield_tooltip_2": "Incredibly sturdy shield that makes blocking any attack effortless",
+
+  "tooltip.master-sword.great_eagle_bow_tooltip": "A bow wielded by a Rito Champion from a distant land",
+  "tooltip.master-sword.great_eagle_bow_tooltip_2": "Has the ability to multiply arrows shot from it",
+  "tooltip.master-sword.great_eagle_bow_tooltip_3": "Shoots faster and harder than a normal bow.",
+
+  "tooltip.master-sword.boulder_breaker_tooltip": "A heavy weapon used by a Goron Champion in a distant land",
+  "tooltip.master-sword.boulder_breaker_tooltip_2": "can be used for mining and combat"
+}
