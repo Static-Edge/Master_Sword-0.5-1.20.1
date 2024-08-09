@@ -35,7 +35,7 @@ public class SwordBeamEntityRenderer extends EntityRenderer<SwordBeamEntity> {
     }
 
     @Override
-    public Identifier getTexture(SwordBeamEntity dalekBeam) {
+    public Identifier getTexture(SwordBeamEntity swordBeam) {
         return new Identifier(MasterSword.MOD_ID, "textures/entity/sword_beam.png");
     }
 }
